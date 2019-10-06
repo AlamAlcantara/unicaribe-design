@@ -1,0 +1,12 @@
+.seccion:hover{
+    transition: 0.3s;
+}
+
+.menu_content{
+    display: none;
+    position: absolute;
+}
+
+.menu:hover .menu_content{
+    display: flex;
+}
