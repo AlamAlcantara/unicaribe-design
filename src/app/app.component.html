@@ -1,9 +1,19 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div>
+<div id="app-container" class="shadow-xl mx-auto">
   <app-header></app-header>
   <app-contact-center></app-contact-center>
   <app-slider></app-slider>
   <app-apartados></app-apartados>
+  <div class="flex">
+    <app-soluciones-universitarias class="w-1/2"></app-soluciones-universitarias>
+    <app-calendarios class="w-1/2"></app-calendarios>
+  </div>
+  <div class="flex bg-gray-100 px-48">
+    <app-contador class="flex-1 bg-gray-200" [endVal]="27597" title="Estudiantes" [icon]="faUsers"></app-contador>
+    <app-contador class="flex-1 bg-gray-100" [endVal]="158" title="Premios y Reconocimientos" [icon]="faTrophy"></app-contador>
+    <app-contador class="flex-1 bg-gray-200" [endVal]="31021" title="Graduados" [icon]="faGraduationCap"></app-contador> 
+  </div>
+  <app-noticias-recientes></app-noticias-recientes>
   <app-footer></app-footer>
 </div>
 <router-outlet></router-outlet>

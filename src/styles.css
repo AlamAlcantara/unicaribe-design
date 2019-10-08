@@ -964,6 +964,14 @@ video {
   background-color: #00004C;
 }
 
+.bg-blue-902{
+  background-color: #2e6da4;
+}
+
+.bg-blue-903{
+  background-color: #2B3A78;
+}
+
 .bg-indigo-100{
   background-color: #ebf4ff;
 }
@@ -1338,6 +1346,14 @@ video {
 
 .hover\:bg-blue-901:hover{
   background-color: #00004C;
+}
+
+.hover\:bg-blue-902:hover{
+  background-color: #2e6da4;
+}
+
+.hover\:bg-blue-903:hover{
+  background-color: #2B3A78;
 }
 
 .hover\:bg-indigo-100:hover{
@@ -9327,6 +9343,14 @@ video {
 
 .text-blue-901{
   color: #00004C;
+}
+
+.text-blue-902{
+  color: #2e6da4;
+}
+
+.text-blue-903{
+  color: #2B3A78;
 }
 
 .text-indigo-100{
