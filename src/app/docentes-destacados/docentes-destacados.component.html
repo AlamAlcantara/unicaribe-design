@@ -1,0 +1,13 @@
+<div class="container mx-auto">
+  <h1 class="text-4xl font-light" >Docentes Destacados</h1>
+  <span class="border-b-4 border-green-700 block w-20 mt-1 mb-5"> </span>
+
+  <ngx-slick-carousel class="carousel" 
+        #slickModal="slick-carousel" 
+        [config]="sliderOpts" >
+      <div ngxSlickItem *ngFor="let user of users" class="slide mx-3">
+          <app-user-card imageUrl="{{user.imageUrl}}" role="{{user.role}}" name="{{user.name}}" career="{{user.career}}" ></app-user-card>
+      </div>
+  </ngx-slick-carousel>
+
+</div>
