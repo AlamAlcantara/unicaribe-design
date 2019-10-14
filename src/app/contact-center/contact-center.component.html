@@ -1,14 +1,18 @@
-<div id="contact-center" class="fixed z-30 animated bounceInUp">
-  <div class="bg-red-700 rounded text-white py-1 px-3 flex">
-    <p class="flex cursor-pointer mr-32">Contáctanos</p>
+  <div id="contact-center" class="fixed z-30 animated bounceInUp">
+    <div class="bg-red-700 rounded text-white py-1 px-3 flex">
+      <p class="flex cursor-pointer mr-32">Contáctanos</p>
+      
+      <div class="flex rounded mr-2 border border-gray-100 rounded px-1 shadow-md cursor-pointer">
+        <fa-icon [icon]="faCommentAlt" flip="horizontal"></fa-icon>
+      </div>
 
-    <div class="flex rounded mr-2 border border-gray-100 rounded px-1 shadow-md cursor-pointer">
-      <fa-icon [icon]="faPhone" rotate="90"></fa-icon>
+      <div class="flex rounded mr-2 border border-gray-100 rounded px-1 shadow-md cursor-pointer">
+        <fa-icon [icon]="faPhone" rotate="90"></fa-icon>
+      </div>
+  
+      <div class="flex rounded border border-gray-100 rounded px-1 shadow-md cursor-pointer">
+        <fa-icon [icon]="faMapMarkerAlt"></fa-icon>
+      </div>
+  
     </div>
-
-    <div class="flex rounded border border-gray-100 rounded px-1 shadow-md cursor-pointer">
-      <fa-icon [icon]="faMapMarkerAlt"></fa-icon>
-    </div>
-
   </div>
-</div>

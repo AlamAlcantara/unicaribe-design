@@ -11,8 +11,8 @@
     display: flex;
 }
 
-@media (max-width:500px){
+/* @media (max-width:500px){
     #contactInfoHeader{
         display: none;
     }
-}
+} */

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import {faPhone} from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faCommentAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-contact-center',
@@ -12,6 +13,7 @@ export class ContactCenterComponent implements OnInit {
   
   faPhone = faPhone;
   faMapMarkerAlt = faMapMarkerAlt;
+  faCommentAlt = faCommentAlt;
   
   constructor() { }
 
