@@ -1,6 +1,7 @@
-@media screen and (min-width: 1024px) {
+@media(min-width: 1500px) {
     #app-container {
      width: 70%;
     }
 }
+
   
